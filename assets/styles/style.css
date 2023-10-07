@@ -1,0 +1,22 @@
+body {
+  background-color: blanchedalmond;
+  background-image: url(../img/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -20px -120px;
+}
+.layout {
+  font-family: "ppopins", sans-serif; /* Fuente moderna */
+}
+.layout__title {
+  text-align: center;
+}
+.layout__nav {
+  text-align: center;
+}
+.layout__aside {
+  text-align: center;
+}
+.layout__footer {
+  text-align: center;
+}

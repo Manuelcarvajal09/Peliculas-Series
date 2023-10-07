@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manuel Carvajal">
+    <meta name="description" content="Pagina web de un selector de peliculas">
+    <title>Selector de peliculas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <div class="layout">
+        <header class="layout__title">
+            <h1 class="title__text">Peliculas Manuel Carvajal</h1>
+        </header>
+
+        <aside class="layout__aside">
+            <hr>
+            Seleccione una opcion:
+            <select id="miSelector">
+                <option value="assets/json/peliculas.json">Peliculas</option>
+                <option value="assets/json/series.json">Series</option>
+            </select>
+        </aside>
+        <nav class="layout__nav">
+            <hr>
+            <label class="layout__search"> Titulo:
+                <input type="text" placeholder="Ingrese el titulo" id="miInput" title="Usar una direccion valida">
+            </label>
+            <button class="layout__button" id="miBoton">Buscar
+
+            </button>
+            <hr>
+        </nav>
+        <section class="layout__section">
+            <ul class="section__contenido" id="miLista">
+
+            </ul>
+        </section>
+        <footer class="layout__footer">
+            <hr>
+            Creador: Manuel J. Carvajal Escalera
+        </footer>
+</body>
+</div>
+
+<script src="assets/scripts/index.js"></script>
+
+</html>
